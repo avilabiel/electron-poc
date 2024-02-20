@@ -1,7 +1,6 @@
 {
   "name": "my-electron-app",
   "version": "1.0.0",
-  "description": "Hello World!",
   "main": "main.js",
   "author": "Gabriel Ávila",
   "license": "MIT",
