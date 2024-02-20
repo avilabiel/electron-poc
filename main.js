@@ -9,8 +9,7 @@ const createWindow = () => {
       preload: path.join(__dirname, "preload.js"),
       devTools: true,
     },
-    icon: path.join(__dirname, "js-logo.png"),
-    name: "Js App",
+    icon: path.join(__dirname, "js.ico"),
   });
 
   win.loadFile("index.html");

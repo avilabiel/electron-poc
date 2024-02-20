@@ -1,13 +1,19 @@
 {
   "name": "my-electron-app",
+  "productName": "Random App",
+  "description": "Random App 2",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "y",
   "author": "Gabriel Ávila",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^29.0.0"
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "29.0.0"
   },
   "scripts": {
-    "start": "electron ."
-  }
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {}
 }
